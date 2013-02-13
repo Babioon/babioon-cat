@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5.0" client="site" method="upgrade">
+	<name>babioon_cat</name>
+	<author>Robert Deutz</author>
+	<creationDate>August 2005</creationDate>
+	<copyright>(C) 2005-2007 Robert Deutz Business Solution. All rights reserved.</copyright>
+	<authorEmail>contact@babioon.com</authorEmail>
+	<authorUrl>www.babioon.com</authorUrl>
+	<version>2.0</version>
+	<description>The module shows the text stored in the modules parameter.</description>
+	<files>
+		<filename module="mod_babioon_cat">mod_babioon_cat.php</filename>
+	</files>
+
+
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="text" type="textarea" cols="60" rows="30" default="Auszugebenden Text" label="Text" description="Enter your text here." filter="raw" />
+			</fieldset>
+		</fields>
+	</config>
+
+</extension>
